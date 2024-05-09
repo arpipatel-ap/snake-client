@@ -23,6 +23,19 @@ const handleUserInput = function (key) {
   if (key === "d"){
     connection.write("Move: right");
   }
+  if (key === '1') {
+    conn.write("Say: Hello, everyone!");
+  } 
+  if (key === '2') {
+    conn.write("Say: Let's have fun!");
+  } 
+  if (key === '3') {
+    conn.write("Say: Snake party!");
+  }
+  if (key === '4') {
+    conn.write("Say: Enjoy the game!");
+  }
+
   if (key === '\u0003') {
     process.exit();
   } 
