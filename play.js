@@ -1,17 +1,5 @@
 const connect = require("./client")
 const handleUserInput = function (data) {
-  if (key === 'w') {
-    conn.write("Move: up");
-  }
-  if (key === 'a') {
-    conn.write("Move: left");
-  }
-  if (key === 's') {
-    conn.write("Move: down");
-  }
-  if (key === 'd') {
-    conn.write("Move: right");
-  }
   if (data === '\u0003') {
     process.exit();
   }
