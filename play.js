@@ -1,7 +1,11 @@
 const connect = require("./client")
-const connect = require("./input")
+const setupInput = require("./input")
 
+
+//connect to the servers
 console.log("Connecting ...");
-connect();
+
+
+// setup interface to handle user input from stdin
 setupInput();
 
